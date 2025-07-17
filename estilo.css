@@ -1,0 +1,124 @@
+body {
+    background-color: #1a1818;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Barra*/
+#bar {
+    padding: 0;
+}
+
+#barelemtos a {
+    height: 100%;
+}
+
+#menu {
+    height: 100%;   
+}
+
+#menu li {
+    transition: background-color 0.1s;
+}
+
+#menu li:hover {
+    background-color: #0a0a0a;
+}
+
+#pad {
+    background-color: #1d1d1d;
+}
+
+.logo-hover-rotate{
+    transition: transform 0.5s ease;
+}
+
+.logo-hover-rotate:hover {
+    transform: rotate(75deg);
+}
+
+
+
+/*Footer*/
+
+#copy{
+    display: flex;
+    align-items: start;
+}
+
+#copy a{
+    width: 40px;
+    height: 40px;
+}
+
+#copy p {
+    padding: 0 20px;
+}
+
+#red li {
+    background-color: #000;
+    margin: 3px;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+#red li:hover {
+    background-color: #1d1d1d;
+}
+
+#red li a {
+    display: flex;
+    align-items: center;
+}
+
+/*Acordeon*/
+
+.accordion {
+    --bs-accordion-btn-bg: #272727;
+    --bs-accordion-active-bg: #272727;
+    --bs-accordion-active-color: #1b1717;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-bg: #1a1818;
+}
+
+.accordion-item {
+    border-bottom: 2px solid #505050;
+}
+
+.accordion-button,
+.accordion-button.collapsed,
+.accordion-button:focus,
+.accordion-button:focus-visible,
+.accordion-button:focus-within,
+.accordion-button:active,
+.accordion-button:visited,
+.accordion-button:target {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E") !important;
+}
+
+/*Mapa*/
+#formmap {
+    background-color: #2c2c2c;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#map {
+    height: 100%;
+}
